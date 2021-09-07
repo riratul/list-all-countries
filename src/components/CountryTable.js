@@ -13,11 +13,10 @@ export const CountryTable = ({countries}) => {
         && (
       <>
         {countries.map((country) => {
-            const {name,area,population,region } =
-              country
+            const {numericCode,name,area,population,region} =  country
 
             return (
-                  <tr>
+                  <tr key={numericCode}>
                   <td>{name}</td>
                   <td>{region}</td>
                   <td>{Math.round(area * 0.3861)}</td>

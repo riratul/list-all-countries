@@ -56,7 +56,7 @@ export default class Body extends Component {
                 <h2>List of Countries</h2>	
               </div>
               <div className="col-4 d-flex justify-content-end align-items-center">
-                  <select class="sort-select">
+                  <select className="sort-select">
                     <option>Sort By</option>
                     <option>Name</option>
                     <option>Population</option>

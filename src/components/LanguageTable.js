@@ -14,10 +14,10 @@ export const LanguageTable = ({countries}) => {
         && (
       <>
         {countries.map((country) => {
-            const { name,languages,population } =  country
+            const {numericCode,name,languages,population } =  country
 
             return (
-                  <tr>
+                  <tr key={numericCode}>
                   <td>{languages.map((item) => {
                     const { name } =  item
                     return(
