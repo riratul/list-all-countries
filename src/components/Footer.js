@@ -4,7 +4,7 @@ const Footer = () => {
 
   return (
     <>
-    <footer class="footer">
+    <footer className="footer">
 		<p>Copyright@2021 Rayatul Islam</p>
 	</footer>
     </>
